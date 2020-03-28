@@ -1,0 +1,176 @@
+.body_web
+{
+	background: url("Chad.gif") repeat-y right, rgb(0,0,49);
+}
+
+.body_web h1, h2, h3
+{
+	border: 0.5px red dashed;
+	border-radius: 5px 10px 15px 20px;
+	width:56%;
+}
+
+.t1
+{
+	color: rgb(66,66,225);
+	font-size:21px;
+	font-family: CASTELLAR;
+	text-align:center;
+}
+
+.Tchad
+{
+	float:left;
+}
+
+.t2
+{
+	font-size:20px;
+	color: rgb(225,225,10);
+	font-family: CASTELLAR;
+	text-align:center;
+}
+
+.t3
+{
+	color: rgb(225,0,0);
+	font-size:19px;
+	font-family: CASTELLAR;
+	text-align:center;
+}
+
+.page1
+{
+	font-size: 15px;
+	font-family: Elephant;
+	color: rgb(128,0,255);
+	text-align:center;
+}
+
+.page2
+{
+	font-size: 12px;
+	font-family: Elephant;
+	color: rgba(255,0,255,0.4);
+	text-align: center;
+}
+
+a
+{
+	font-size: 13px;
+	font-style: italic;
+	text-decoration:none;
+	color: blue;
+}
+
+a:hover
+{
+	background: green;
+	color: white;
+}
+
+/*a:visited
+{
+	color:green;
+}*/
+
+.image
+{
+	width: 6%;
+	height: 10%;
+}
+
+.p1
+{
+	font-family: Time New Roman;
+	text-align: justify;
+}
+
+img
+{
+	max-width: 500px;
+	max-height: 1000px;
+}
+
+body
+{
+	max-width: 4000px;
+	max-height: 1px;
+}
+
+.T1
+{
+	font-family: Time New Roman;
+	font-size: 18px;
+	font-style: normal;
+	text-align:justify;
+	border: 0.8px dashed green;
+	width: 53%;
+}
+
+legend
+{
+	font-family: Time New Roman;
+	font-size: 13px;
+	font-style: italic;
+	color:red;
+}
+
+label
+{
+	font-family: Time New Roman;
+	font-size: 10px;
+	font-style: italic;
+	color:blue;
+}
+
+.T2
+{
+	font-family: Time New Roman;
+	font-size: 12px;
+	font-style: normal;
+}
+
+fieldset
+{
+	width:62%;
+}
+
+video
+{
+	width:400px;
+	height:300px;
+}
+
+.hymne
+{
+	
+	background: url("fond.png") repeat-y;
+}
+
+.uma
+{
+	background: rgb(225,225,70);
+}
+
+.uma1
+{
+	width: 3000px;
+	height: 500px;
+	margin: auto;
+}
+
+.div
+{
+	text-align: center;
+}
+
+.inscription
+{
+	background: rgb(225,225,70);
+}
+
+.page22
+{
+	background: rgba(225,225,70,0.8);
+}

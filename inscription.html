@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		
+		<meta charset="utf-8" />
+		<title>Inscription</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	
+	<body class="inscription">
+	
+											<!--formulaire-->
+		<form id="formulaire"> 
+		<h1 class="T1"> veillez remplir le formulaire suivant et valider votre inscription au sein de notre association</h1>
+		
+		
+		<p name="para"> 
+			<fieldset>
+				<legend>Information d'ordre academique et scolaire</legend>
+				
+					<label for="nom">NOM: </label><input type="text" name="nom" id="nom" value="" placeholder="Ex: SABOUR" size="25" /><br /> <br /> 
+					
+					<label for="prenom">PRENOM: </label><input type="text" name="prenom" id="prenom" value="" placeholder="Ex: FIDEL" size="25" /><br /><br /> 
+					
+					<label for="mailto">E-mail: </label><input type="email" name="mail" id="mailto" value="" placeholder="Ex: sabourfidel@gmail.com" size="25" /><br /><br /> 
+					
+					<label for="date">Date de Naissance: </label><input type="date" name="date" id="date" value="" /><br /><br /> 
+					
+					<label for="age">Age: </label><input type="number" name="age" id="age" value="" min="15" placeholder="Ex: 22"/><br /><br /> 
+					
+					<label for="depart">Departement: </label><input type="text" name="departement" id="depart" value="" placeholder="Ex: Mathematiques et Informatique" size="35" /><br /><br /> 
+					
+					<label for="fil">Filière: </label><input type="text" name="filière" id="fil" value="" placeholder="Ex: Informatique" size="25" /><br /><br /> 
+					
+					<label for="niveau">Niveau: </label><input type="number" name="nombre" id="niveau" value="" max="5" min="1" placeholder="Ex: 2" size="10" /><br /><br /> 
+					
+					<label for="cycle">Cycle: </label><input type="number" name="cycle" id="cycle" value="" max="2" min="1" placeholder="Ex: 1" size="10" /><br /><br /> 
+					
+					<label for="matri">Matricule: </label><input type="charset" name="matricule" id="matri" value="" maxlength="9" placeholder="Ex: 18A0874FS" size="13" /><br /><br /> 
+			</fieldset>
+		</p>
+		
+		<p name='para'>
+		
+			<fieldset>
+				<legend>Information d'ordre personnel mais champ obligatoire</legend>
+					
+				
+				<input type="checkbox" name="homme" id="homme" checked /><label for="homme">HOMME</label><br />
+				
+				<input type="checkbox" name="homme" id="femme" /><label for="femme">FEMME</label><br />
+
+				 <h4 class="T2">Etes vous célibataire?</h4><br />
+				 
+				<input type="radio" name="celi" id="oui" checked /><label for="oui">Oui</label><br />
+				
+				<input type="radio" name="celi" id="Non" /><label for="Non">Non</label><br />
+				
+				<label for="pass">Password: </label><br /><input type="password" name="pass" value="" id="pass" maxlength=10 min=4 onclick='pass()' />
+			</fieldset>
+		</p>
+		
+		<p>
+			<label for="commentaire">Un peu de commentaire sur vous</label><textarea></textarea>
+		</p>
+		
+		<p class="para1">
+			<input type="submit" name="Envoyer" value="Envoyer"/>
+			<input type="reset" value="Annuler" /><br /><br />
+		</p>
+		
+		
+		
+		
+	</form>
+	
+	
+	<!--appel au fichier javascript-->
+	
+		<script src="javascript.js"></script>
+	
+	</body>
+
+
+</html>
+
